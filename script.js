@@ -1,3 +1,6 @@
+// Project made from tutorial by Franks Laboratory
+// https://www.youtube.com/watch?v=dQKYao-daYw&list=PLYElE_rzEw_v8TXJ_ITSSBP_ypUKfQ7K-&index=3&ab_channel=Frankslaboratory
+
 window.addEventListener("load", function () {
   const canvas = document.getElementById("canvas1");
   const ctx = canvas.getContext("2d");
