@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monos pace;
+}
+
+#canvas1 {
+  background: black;
+  position: absolute;
+}
+
+#controls {
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  font-family: "Source Code Pro", monos pace;
+  padding: 9px;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(0, 0.2rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.4);
+}
+
+label,
+input {
+  color: white;
+  font-size: 15px;
+}
